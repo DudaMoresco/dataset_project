@@ -1,6 +1,6 @@
 # dataset_project
 
-> Realizado pelas alunas Eduarda Moresco, discente de Informática Biomédica na Universidade Federal do Paraná em seu 6° semestre; e Fernanda Kawasaki, discente de Ciências da Computação na Universidade Federal do Paraná em seu X° semestre.
+> Realizado pelas alunas Eduarda Moresco, discente de Informática Biomédica na Universidade Federal do Paraná em seu 6° semestre; e Fernanda Kawasaki, discente de Ciências da Computação na Universidade Federal do Paraná em seu 5° semestre.
 
 
 Projeto desenvolvido para a aula de Data Science em Segurança, ministrada pelo professor André Grégio da Universidade Federal do Paraná, no primeiro semestre de 2021; visando a aplicação de técnicas de ciência de dados em um dataset de escolha dos alunos.
