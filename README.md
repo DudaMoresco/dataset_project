@@ -8,17 +8,29 @@ Projeto desenvolvido para a aula de Data Science em Segurança, ministrada pelo 
 
 ## Exploração de dados
 
-O que é o nosso dataset ? Explicá-lo
+Os dados da análise são compostos por um conjunto de arquivos com resultados de detecção de malware por um grupo de antivirus disponibilizados pela plataforma VirusTotal. Ele é constituido majoritariamente por atributos textuais, com o foco na rotulação por antivirus. 
 
-- Que tipos de dados você tem, majoritariamente (atributos numéricos, textuais)?
+Os modelos dos arquivos possuem os seguintes atributos: 
+
+- scan_id: identificador da análise
+- md5: função hash do arquivo contendo o malware de análise
+- sha1: função hash de ..
+- sha256: função hash de ..
+- resource: --
+- response_code: --
+- verbose_msg: --
+- scan_date: data de realização da análise
+- permalink: url para a análise realizada pela plataforma VirusTotal
+- total: total de detecção
+- positives: total de detecção positiva
+- scans: objeto com os resultados da análise por cada antivirus. Cada um deles corresponde a uma chave no objeto que abriga outro objeto. Nele temos as informações : detected , informa se o malware foi identificado por aquele antivirus ; version, versão do antivirus, update, data de atualização do antivirus; e result , rótulo dado ao malware pelo antivirus caso detected == true. 
+
+
+
 - Seu dataset é rotulado de que maneira?
 - Como é a distribuição dos dados do dataset?
 
-.... Constituido majoritariamente por atributos textuais.
  
 O objetivo principal do projeto está no estudo sobre a rotulação e suas relações, analisando a possibilidade de se construir uma árvore ou um grafo de rótulos gerados por entidades distintas que no final, pode-se aplicar uma redução e normalização para uma label "padrão".
 
-Tendo o objetivo em vista realizaremos a análise em cima de um dataset a ser criado com os dados modelo explicados no começo do tópico. Ira conter os atributos .....
-
-
-- Quais colunas/atributos você julga ser interessante manter e remover? Por quê?
+Tendo o objetivo em vista realizaremos a análise em cima de um dataset a ser criado com os dados modelo explicados no começo do tópico. Até o momento os dados julgados relevantes para a análise são md5 e os rótulos dados por cada antivirus ao malware. O md5 por ser o identificador do objeto de análise e os rótulos, por conterem as strings do foco do projeto.
