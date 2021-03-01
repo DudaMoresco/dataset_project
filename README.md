@@ -28,6 +28,9 @@ Os modelos dos arquivos possuem os seguintes atributos:
 
 
 - Seu dataset é rotulado de que maneira?
+
+A rotulação do dataset é feita pelos antivírus. De forma geral, as engines identificam os malwares com base em um banco de dados próprio e, com base no resultado, atribuem um rótulo utilizando o padrão definido. Como cada engine possui padrão diferente de nomear os malwares encontrados, temos diversos rótulos para um mesmo hash (MD5, SHA1, SHA256). Também nota-se que a diferença vai além da nomenclatura, pois a interpretação de cada engine também pode variar, fazendo com que um malware possa ser considerado _Trojan_ por um antivírus e _Worm_ por outro.
+
 - Como é a distribuição dos dados do dataset?
 
  
