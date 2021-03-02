@@ -29,4 +29,4 @@ A rotulação é realizada pelas engines dentro dos antivírus. De forma geral, 
  
 O objetivo principal do projeto está no estudo sobre a rotulação e suas relações, analisando a possibilidade de se construir uma árvore ou um grafo de rótulos gerados por entidades distintas que no final, pode-se aplicar uma redução e normalização para uma label "padrão".
 
-Tendo o objetivo em vista realizaremos a análise em cima de um dataset a ser criado com os dados modelo explicados no começo do tópico. Até o momento os dados julgados relevantes para a análise são md5,por ser o identificador do objeto de análise; e os rótulos dados por cada antivirus ao malware. 
+Tendo o objetivo em vista realizaremos a análise em cima de um dataset a ser criado com os dados modelo explicados no começo do tópico. Até o momento os dados julgados relevantes para a análise são md5, sha1, sha256, por serem os identificadores do objeto de análise; e os rótulos dados por cada antivirus ao malware. 
