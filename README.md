@@ -4,7 +4,8 @@
 
 
 Projeto desenvolvido para a aula de Data Science em Segurança, ministrada pelo professor André Grégio da Universidade Federal do Paraná, no primeiro semestre de 2021; visando a aplicação de técnicas de ciência de dados em um dataset de escolha dos alunos.
-
+ 
+link para o notebook com as análises :  https://colab.research.google.com/drive/1srPPDyg2OVFv35qPwGaG5ri4qGKnXEU9?usp=sharing 
 
 ## Exploração de dados
 
